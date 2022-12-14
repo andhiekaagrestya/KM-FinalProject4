@@ -4,8 +4,8 @@
 
 ### Dibuat Oleh
 
-### 1. Andhieka Agrestya Al Ara Ab
-### 2. Aldo Vierisyah
-### 3. William Soeparman
+1. Andhieka Agrestya Al Ara Ab
+2. Aldo Vierisyah
+3. William Soeparman
 
 ## Demo site 👉 

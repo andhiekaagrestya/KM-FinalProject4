@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  }
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background: rgb(41, 39, 39);
+font-family: 'Open Sans', sans-serif;
+background-image: url(https://source.unsplash.com/random/1600x900/?landscape);
+}
+
+.kartu{
+  background: #000000d0;
+  max-width: 500px;
+}
+
+button{
+height: 2.5rem;
+width: 2.5rem;
+outline: none;
+background-color: #7c7c7c2b;
+}
+
+button:hover{
+background-color: rgb(92, 88, 88);
+cursor: pointer;
+transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+outline: none;
+width: 22rem;
+height: 2.5rem;
+background-color: #7c7c7c2b;
+font-family: inherit;
+}
+
+.weather.loading{
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading:after{
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  font-size: large;
+  top: 10px;
+  left: 20px;
+}
